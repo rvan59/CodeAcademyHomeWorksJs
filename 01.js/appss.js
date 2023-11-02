@@ -7,16 +7,17 @@
 //   }
 // }
 
+
 // // task4
 // for(let i=1; i<10; i++){
 //   console.log(` ${i}*${i}=${i*i}`);
 // }
 
-// task5
-console.log(`i    i^2   i^3`);
-for (let i=1; i <= 10; i++) {
-  console.log(` ${i} ${i**2} ${i**3}`);
-}
+// // task5
+// console.log(`i    i^2   i^3`);
+// for (let i=1; i <= 10; i++) {
+//   console.log(` ${i} ${i**2} ${i**3}`);
+// }
 
 // task3
 // let reqem=35

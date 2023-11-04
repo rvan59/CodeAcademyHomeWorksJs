@@ -1,15 +1,16 @@
-// let arry = [3, 8, 5, 2, 7, 10, 6];
+let arry = [3, 8, 5, 2, 7, 10, 6];
  
-// for (let i=0; i<arry.length; i++){
-//     if (i% 2===1)  {
-//         console.log("Tekler",i);
-//       }
-// }
-// for (let i=0; i<arry.length; i++){
-//     if (i% 2===0)  {
-//         console.log("Cutler",i);
-//       }
-// }
+
+for (let i=0; i<arry.length; i++){
+    if (arry[i]% 2===1)  {
+        console.log("Cutler",i);
+      }
+}
+for (let i=0; i<arry.length; i++){
+    if (arry[i]% 2===0)  {
+        console.log("Cutler",i);
+      }
+}
 
   
 

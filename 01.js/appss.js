@@ -1,6 +1,5 @@
 // task2
 // let reqem = 34;
-
 // for (let i = 0; i <= reqem; i++) {
 //   if (reqem % i === 0) {
 //     console.log(i);

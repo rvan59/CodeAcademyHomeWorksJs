@@ -44,7 +44,6 @@
 // // task2.3
 // for (let i = 0; i < employees.length; i++) {
 //     if (
-//         employees[i].salary > 65000 &&
 //         employees[i].department === "HR") 
 //         {console.log(employees[i]);
 //     }

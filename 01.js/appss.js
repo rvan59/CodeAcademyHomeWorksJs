@@ -30,7 +30,7 @@
 
 
 
-// // task7
+// task7
 // let number=0;
 // for(let i=0;i<100; i++){
 //     number+=i;}

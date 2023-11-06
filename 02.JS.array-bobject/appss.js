@@ -1,14 +1,21 @@
-// let number = [12,7,3,9,6,15,8];
-
+let number = [12,7,3,9,6,15,8];
+// task1.1
+// let newArr = number.flatMap((x) => x ** 2);
+// console.log(newArr);
 // tsk1.2
-// number[0]="8";
-// number[number.length-1]="12";
-// console.log(number);
+// let min=Math.min(...number)
+// let max=Math.max(...number)
 
+// let minIndex=number.indexOf(min);
+// let maxIndex=number.indexOf (max);
+
+// [number[minIndex],number[maxIndex]]=[number[maxIndex],number[minIndex]];
+// console.log("yeni number"+number);
 // task1.3`
+// 1
 // console.log(Math.max(...number));
-
-// let max = number[0];
+// 2
+//let max = number[0];
 // for (let i=0;i<number.length; i++){
 //     if(number[i]>max){
 //         max=number[i];
@@ -42,9 +49,9 @@
 //     }
 //   }
 // // task2.3
+
 // for (let i = 0; i < employees.length; i++) {
-//     if (
-//         employees[i].department === "HR") 
+//     if (employees[i].department === "HR") 
 //         {console.log(employees[i]);
 //     }
 //   }
@@ -72,6 +79,16 @@
 //   "Falkland Islands",
 //   "Faroe Islands",
 // ];
-
-
-
+// task3.1
+// for(let i=0; i<countries.length; i++){
+//     let log=countries[i];
+//     let length=countries.length;
+//     console.log(`${log}, ${length} `);
+// }
+// task3.2
+// for (let i = 0; i < countries.length; i++) {
+//     let country = countries[i];
+// if(country[0]==="A" && country.slice(-1)==="a") {
+//       console.log(country);
+//     }
+//   }

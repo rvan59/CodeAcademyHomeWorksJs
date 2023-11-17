@@ -117,3 +117,29 @@
 //     return boyuk.toUpperCase();
 // }); 
 // console.log(boyukheriflerle);
+
+
+// let users =[
+//     {
+//         id : 1,
+//         name:`oraxn`,
+//         age:29
+//     },
+//     {
+//         id : 2,
+//         name:`elcin`,
+//         age:19
+//     },
+//     {
+//         id : 3,
+//         name:`tural`,
+//         age:20
+//     }
+// ]
+// users = users.map(user=>{
+//  if (user.name==="tural"){
+//     user.name = `Revan`
+//  }  
+//   return user}
+//     )
+//     console.log(users);

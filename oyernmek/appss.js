@@ -123,17 +123,26 @@
 //     {
 //         id : 1,
 //         name:`oraxn`,
-//         age:29
+//         age:29,
+//         gender: 2
 //     },
 //     {
 //         id : 2,
 //         name:`elcin`,
 //         age:19
+//         , gender: 2
 //     },
 //     {
 //         id : 3,
 //         name:`tural`,
-//         age:20
+//         age:20,
+//         gender: 2
+//     },
+//     {
+//         id : 3,
+//         name:`nigar`,
+//         age:20,
+//         gender: 1
 //     }
 // ]
 // users = users.map(user=>{
@@ -143,3 +152,8 @@
 //   return user}
 //     )
 //     console.log(users);
+
+// const qadin=users.filter(users=>users.gender===1)
+// const kisi=users.filter(users=>users.gender===2 && users.age >19)
+// console.log(qadin);
+// console.log(kisi);

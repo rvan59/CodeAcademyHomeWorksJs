@@ -36,7 +36,6 @@
 // console.log("element sayi :"+say);
 // let sozsayi = "sen, men ,o,biz!";
 // let herifsayi=sozsayi.length;
-
 // console.log("herif sayi :"+herifsayi);
 
 // let meyver=[" armud","alma" , "nar"];
@@ -157,3 +156,6 @@
 // const kisi=users.filter(users=>users.gender===2 && users.age >19)
 // console.log(qadin);
 // console.log(kisi);
+
+
+

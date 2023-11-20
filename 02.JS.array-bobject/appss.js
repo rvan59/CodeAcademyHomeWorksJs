@@ -1,4 +1,4 @@
-let number = [12,7,3,9,6,15,8];
+ let number = [12,7,3,9,6,15,8];
 // task1.1
 // let newArr = number.flatMap((x) => x ** 2);
 // console.log(newArr);
@@ -95,16 +95,3 @@ let number = [12,7,3,9,6,15,8];
 //       console.log(country);
 //     }
 //   }
-
-let sampleNews = `As software developers, the natural tendency is to start developing applications based on your own 
-hands-on experience and knowledge right away. However, overtime issues in the application arise, adaptations to changes, 
-and new features happen.`
-
-let bosuluq= sampleNews.match(/ /g);
-
-if (bosuluq){
-   let bosuluqsayi =bosuluq.length;
-   console.log("bosluq sayi"+bosuluqsayi);}
-   else {
-    console.log("bosluq sayi yoxdur.");
-   }

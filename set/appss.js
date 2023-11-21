@@ -32,6 +32,7 @@ const B =new Set(b)
 
 // console.log(a.filter(num=>B.has(num))); // kesisenleri yazir
 
+// // createElement
 
 // const div = document.createElement("div");
 // const text = "cod isleyir";
@@ -39,3 +40,9 @@ const B =new Set(b)
 // div.appendChild(divcon);
 // div.style.color ="red"
 // document.body.appendChild(div);
+
+var cotainer = document.createElement("p");
+ 
+ newParagrah.textContent =" yeni bir p element";
+ var cotainer = document.getElementById("contayner");
+ cotainer.appendChild(newParagrah);

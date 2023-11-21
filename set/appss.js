@@ -33,10 +33,9 @@ const B =new Set(b)
 // console.log(a.filter(num=>B.has(num))); // kesisenleri yazir
 
 
-var isConfirmed = window.confirm("Təsdiqlə?");
-if (isConfirmed) {
-  console.log("Təsdiqlədiniz!");
-} else {
-  console.log("Təsdiqləmədiniz!");
-}
-zz
+// const div = document.createElement("div");
+// const text = "cod isleyir";
+// const divcon = document.createTextNode(text);
+// div.appendChild(divcon);
+// div.style.color ="red"
+// document.body.appendChild(div);

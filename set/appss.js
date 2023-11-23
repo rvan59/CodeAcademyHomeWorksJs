@@ -1,4 +1,14 @@
-// SET
+// // SET
+// setTimeout(()=>
+// {console.log("salam");
+// },2000);
+
+// setTimeout(
+//     (a,b)=>{
+
+//     },3000,4,12
+// );
+
 // const names =new Set ([`revan`, `tural`,`elcin`])
 //  for( let name of names){
 //     console.log(`ad` ,name);
@@ -35,10 +45,15 @@ const B =new Set(b)
 // // createElement
 
 // const div = document.createElement("div");
+
 // const text = "cod isleyir";
+
 // const divcon = document.createTextNode(text);
+
 // div.appendChild(divcon);
+
 // div.style.color ="red"
+
 // document.body.appendChild(div);
 
 var cotainer = document.createElement("p");
@@ -46,3 +61,4 @@ var cotainer = document.createElement("p");
  newParagrah.textContent =" yeni bir p element";
  var cotainer = document.getElementById("contayner");
  cotainer.appendChild(newParagrah);
+ 

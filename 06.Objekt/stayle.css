@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.h3{
+
+padding: 30px 0 15px 0;
+}
+.contayner{
+text-align: center;
+   margin: 200px;
+    width: 350px;
+    height: auto;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+}
+.veyerler{
+    display: flex;
+   justify-content: center;
+}
+.cvb input{
+    background-color: black;
+    width: 265px;
+    height: 30px;
+border-radius: 8px;
+}
+.veyerler input{
+    margin: 6px;
+    background-color: aliceblue;
+    
+    border-radius: 2px;
+    width: 122px;
+    height: 25px;
+   color: black;
+    
+}
+.buttons button{
+    background-color: darkgray;
+    text-align: center;
+    height: 30px;
+  width: 270px;
+  margin: 6px;
+ 
+  border-radius: 3px;
+}
+

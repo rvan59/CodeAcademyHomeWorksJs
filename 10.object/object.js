@@ -1,63 +1,63 @@
-// let startA = document.querySelector(".start");
-// let span = document.querySelector(".span");
-// let stopB = document.querySelector(".stop");
+let startA = document.querySelector(".start");
+let span = document.querySelector(".span");
+let stopB = document.querySelector(".stop");
 
-// let count = 0;
-// let countInterval;
+let count = 0;
+let countInterval;
 
-// startA.addEventListener("click", function () {
-//   clearInterval(countInterval);
-//   countInterval = setInterval(() => {
-//     count += 1;
-//     span.innerText = count;
-//   }, 1000);
-// });
+startA.addEventListener("click", function () {
+  clearInterval(countInterval);
+  countInterval = setInterval(() => {
+    count += 1;
+    span.innerText = count;
+  }, 1000);
+});
 
-// stopB.addEventListener("click", function () {
-//   clearInterval(countInterval);
-// });
+stopB.addEventListener("click", function () {
+  clearInterval(countInterval);
+});
 
-// let resetBtn = document.querySelector(".reset");
+let resetBtn = document.querySelector(".reset");
 
-// resetBtn.addEventListener("click", function () {
-//   count = 0;
-//   span.innerText = count;
-//   clearInterval(countInterval);
-// });
+resetBtn.addEventListener("click", function () {
+  count = 0;
+  span.innerText = count;
+  clearInterval(countInterval);
+});
 
-// let increment = document.querySelector(".increment");
+let increment = document.querySelector(".increment");
 
-// increment.addEventListener("click", function () {
-//   count += 1;
-//   span.innerText = count;
-// });
+increment.addEventListener("click", function () {
+  count += 1;
+  span.innerText = count;
+});
 
-// let decrement = document.querySelector(".decrement");
-// console.log(decrement);
+let decrement = document.querySelector(".decrement");
+console.log(decrement);
 
-// decrement.addEventListener("click", function () {
-//   count -= 1;
-//   span.innerText = count;
-// });
+decrement.addEventListener("click", function () {
+  count -= 1;
+  span.innerText = count;
+});
 
-// // ----------
+// ----------
 
-// let ininputA = document.querySelector("#ininput1");
-// let increment2 = document.querySelector(".increment1");
+let ininputA = document.querySelector("#ininput1");
+let increment2 = document.querySelector(".increment1");
 
-// increment2.addEventListener("click", function () {
-//   count += +ininputA.value;
-//   span.innerText = count;
-// });
+increment2.addEventListener("click", function () {
+  count += +ininputA.value;
+  span.innerText = count;
+});
 
 
-// let decrement2 = document.querySelector(".decrement2");
-// let ininputB = document.querySelector("#ininput2");
+let decrement2 = document.querySelector(".decrement2");
+let ininputB = document.querySelector("#ininput2");
 
-// decrement2.addEventListener("click", function () {
-//   count -= +ininputB.value;
-//   span.innerText = count;
-// });
+decrement2.addEventListener("click", function () {
+  count -= +ininputB.value;
+  span.innerText = count;
+});
 
 
 let users = [ {

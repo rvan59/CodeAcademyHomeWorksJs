@@ -1,0 +1,53 @@
+* {
+  border: none;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.contayme {
+  max-width: 1644px;
+}
+.header {
+  display: flex;
+  background-color: black;
+}
+
+.left h2 {
+  color: aliceblue;
+}
+.left {
+  padding: 0 0 0 80px;
+  margin: 30px 0;
+  width: 50%;
+}
+.right {
+  padding: 0 0 0 100px;
+  margin: 30px 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  display: flex;
+}
+li {
+ padding: 0 20px ;
+  display: flex;
+  color: aliceblue;
+}
+.button button {
+  color: black;
+  background-color: aquamarine;
+  width: 95px;
+  height: 30px;
+  border-radius: 35%;
+}
+
+body{
+  height: 2000px; 
+}
+.banere {
+  text-align: center;
+  background-color: rgb(135, 132, 132);
+  height: 200vh;
+}

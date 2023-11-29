@@ -114,9 +114,8 @@
 // let meyveler = ["elma", "armut", "çilek"];
 // let boyukheriflerle=meyveler.map(function(boyuk){
 //     return boyuk.toUpperCase();
-// }); 
+// });
 // console.log(boyukheriflerle);
-
 
 // let users =[
 //     {
@@ -147,7 +146,7 @@
 // users = users.map(user=>{
 //  if (user.name==="tural"){
 //     user.name = `Revan`
-//  }  
+//  }
 //   return user}
 //     )
 //     console.log(users);
@@ -157,5 +156,13 @@
 // console.log(qadin);
 // console.log(kisi);
 
+let btns = document.getElementsByClassName("btn");
 
+for (let i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function () {
+    let buttonStyle = getComputedStyle(this);
 
+    let buttonBgColor = buttonStyle["backgroundColor"];
+    document.body.style.backgroundColor = buttonBgColor;
+  });
+}

@@ -1,23 +1,22 @@
-.box{
-    margin: 20px;
-    width: 200px;
-    height: 150px;
-    border: 2px solid salmon;
-    border-radius: 5px;
+.box {
+  margin: 20px;
+  width: 200px;
+  height: 150px;
+border-radius: 5px;
 }
-.btn{
-    background-color: white;
-    border: none;
+.btn {
+  background-color: white;
+  border: none;
 }
-.top{
-    margin: 10px;
-    display: flex;
-    justify-content: space-between;
+.top {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
 }
-.deyer{
-    margin: 10px;
-    padding: 20px 0px;
+.deyer {
+  margin: 10px;
+  padding: 20px 0px;
 }
-.melumat{
-    margin: 5px;
+.melumat {
+  margin: 5px;
 }

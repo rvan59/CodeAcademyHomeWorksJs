@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.right {
+  display: flex;
+}
+.img {
+  list-style: none;
+  padding: 0px 20px;
+}
+.delete {
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.edit {
+  border-radius: 4px;
+  border: none;
+  background-color: chocolate;
+  color: white;
+}

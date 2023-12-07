@@ -12,4 +12,4 @@ setInterval(() => {
         console.log(data);
         image.src=data.message;
     });
-}, 5000);
+}, 1000);

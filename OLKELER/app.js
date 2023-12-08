@@ -21,7 +21,7 @@ function getWeather (curCity){
 
 getWeather("Ganja");
 
-form.addEventListener("submit",function(e){
+form.addEventListener("submit",function(e){ 
     e.preventDefault();
 
     getWeather(inpult.value);

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: red;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .header {
+        display: flex;
+        justify-content: space-around;
+      }
+      .right {
+        display: flex;
+      }
+      .img {
+        list-style: none;
+        padding: 0px 20px;
+      }
+      button{
+        background-color: red;
+        border: none;
+        width: 70px;
+        height: 25px;
+        border-radius: 4px;
+      } 
+      .title{
+        width: 200px;
+        height: 30px;
+      }
+      h2{
+        text-align: center;
+        color: brown;
+      }
+      .body{
+        width: 200px;
+        height: 40px;
+      }
+      .button{
+        padding: 20px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="h1"><h1>The Blog Website</h1></div>
+
+          <div class="right">
+            <div class="img"><a href="./home.html">Home</a></div>
+            <div class="img"><a href="">Nev Blog</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="containerr">
+        <h2  >Add a New Blog</h2>
+        <form action="">
+          <div style="text-align: center;" class="box">
+            <p>Blog title:</p>
+            <input class="title" type="text" />
+            <p>Blog Body:</p>
+            <input class="body" type="text" />
+
+          <div class="">
+            <p>Blog author:</p>
+
+
+            <input placeholder="select author" list="kecid">
+            <datalist id="kecid">
+                <option value="select author"></option>
+                <option value="select author"></option>
+                <option value="select author"></option>
+            </datalist>
+
+
+          </div>
+          <div class="button">
+            <button style="color:white ;" >Add Blog</button>
+          </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./newblog.js"></script>
+  </body>
+</html>

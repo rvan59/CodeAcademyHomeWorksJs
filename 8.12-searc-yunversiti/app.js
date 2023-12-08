@@ -13,20 +13,17 @@ getData("search?country=Azerbaijan");
 function drawTable(data) {
   tBody.innerHTML = "";
   data.forEach((element) => {
-    const trElme = document.createElement("tr");
-    trElme.innerHTML += `
+    const trElm = document.createElement("tr");
+    trElm.innerHTML += `
         <td>${element.name}</td>
         <td>${element.country}</td>
-        <td>${element.domains}</td>
-        <td>${element.web_pages[0]}</td>
+        <td>${element.domains[0]}</td>
+        <td><a href="">${element.web_pages[0]}</a></td>
         `;
-    tBody.append(trElme);
+    tBody.append(trElm);
   });
 }
 
 search.addEventListener("input", function (e) {
-  let endpoint = `search?country=Azerbaijan&name=${e.target.value}`;
-
-  console.log(salam);
-  getData(endpoint);
+  getData(`search?country=Azerbaijan&name=${e.target.value}`);
 });

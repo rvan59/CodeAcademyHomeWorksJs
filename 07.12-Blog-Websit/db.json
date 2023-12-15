@@ -6,12 +6,17 @@
             "author": "Loerm",
             "id": 18
 
+<<<<<<< HEAD
         },{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+=======
+        },{
+>>>>>>> 611ae126a792bc5eee4d8ca6c93adec2a5d49a43
             "title":"Aliquam",
             "body": "Qui qui",
             "author": "ipsum",
             "id": 19    
         }
+<<<<<<< HEAD
         ,{
             "title":"player",
             "body": "cat cut",
@@ -20,3 +25,7 @@
         }
     ]
 }
+=======
+    ]
+}
+>>>>>>> 611ae126a792bc5eee4d8ca6c93adec2a5d49a43

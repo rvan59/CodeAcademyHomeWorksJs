@@ -1,0 +1,473 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Open+Sans:wght@400;600&family=Syne:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+}
+h3 ,h6 ,.transition .click{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-family: 'Syne', sans-serif;
+  
+}
+.transition .click:hover,h6:hover{
+  color: red;
+}
+em ,h4{
+  font-family: 'EB Garamond', serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+ .logo .img {
+  width: 48px;
+  height: 54px;
+}
+.logo {
+  padding: 10px 0;
+  margin: 0 4px;
+  column-gap: 50px;
+  display: flex;
+}
+.header .pages {
+  column-gap: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pages .hover:hover {
+  color: red;
+}
+
+.pages a {
+  margin: 0 4px;
+  font-size: 16px;
+  color: black;
+  margin: 10px;
+}
+ .pages .fa-brands {
+  font-size: 25px;
+}
+
+
+.active img{
+  width: 480px;
+}
+ .eft-side ,.item-wrapper{
+  width: 50%;
+ }
+.row{
+  padding: 100px 0 0 0;
+}
+
+
+
+
+
+.card-wrapper {
+  text-align: center;
+  width: 410px;
+  height: 283px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  margin: 25px 0 0;
+  padding: 30px 30px 60px;
+
+  border: none;
+}
+.card-box{
+    width: 350px;
+    height: 193px;
+}
+.mbr-iconfont {
+  width: 450px;
+  height: 80px;
+  margin: 0 0 32px;
+}
+.left , .rights , .rights .img {
+  width: 50%;
+
+}
+.rights .img img  {
+  width: 250px;
+  height: 400px;
+}
+.left{
+  padding: 50px 0 40px 0;
+}
+
+
+
+
+
+.rows{
+  padding: 80px 0;
+  display: flex;
+}
+.data{
+  padding: 0  0 0 120px;
+}
+.data, .stil{
+  width: 50%;
+}
+.data h1{
+  font-size: 47px;
+  width: 280px;
+}
+.data h3{
+  font-size: 23px;
+}
+.stil img{
+  width: 530px;
+}
+.setir h3{
+  color: black;
+  padding: 18px 0;
+}
+
+
+
+
+
+
+.sol,.sag{
+  width: 50%;
+}
+a h4{
+  color: black;
+}
+.sag img{
+  width: 550px;
+}
+.sol h2 {
+  height: 47px;
+}
+.sol h3{
+  padding: 20px;
+}
+.icon{
+  display: flex;
+  padding: 24px 0;
+}
+.icon h4{
+  font-size: 16px;
+  padding: 0 150px 0 0;
+}
+.icon .ikon{
+  font-size: 16px;
+}
+.advertising .button{
+  padding: 0 0 0 150px;
+}
+
+
+
+.button h2{
+width: 470px;
+font-size: 47px;
+}
+.button button{
+  width: 195px;
+  height: 45px;
+  border: 2px solid red;
+  background-color: white;
+  color: black;
+  }
+  .button button:hover{
+    background-color: red;
+    color: white;
+  }
+.left button{
+width: 195px;
+height: 45px;
+border: 2px solid red;
+background-color: white;
+color: black;
+}
+.left button:hover{
+  background-color: red;
+  color: white;
+}
+.rights{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+.request{
+  display: flex;
+padding: 100px;
+}
+.sag a{
+  margin: 0px;
+}
+.sag a:hover {
+  color: red;
+}
+.sol .btn button{
+  color: black;
+  width: 170px;
+  height: 48px;
+  border: 2px solid red ;
+  
+}
+.sol .btn button:hover{
+  background-color: red;
+  color: white;
+}
+.name , .email{
+  width: 280px;
+  height: 90px;
+  border: 1px solid  black;
+  padding: 29px;
+
+}
+.message{
+  width: 548px;
+  height: 90px;
+  border: 1px solid  black;
+  padding: 29px;
+}
+
+
+
+
+.boxs .imgs img{
+width: 175px;
+}
+
+.center{
+  display: flex;
+}
+.advertising{
+  height: auto;
+display: flex;
+}
+.advertising .img{
+  padding: 0 0 0 150px;
+}
+.advertising .img img , .boxs{
+  width: 500px;
+}
+.sol , .sag,  .img , button{
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+.box .center{
+ margin: 0 75px;
+padding: 80px 0 ;
+}
+.h1 h1{
+  font-size: 48px;
+}
+.h4 h4{
+  font-size: 16px;
+}
+.medium{
+  padding: 200px 0;
+  width: 1100px;
+  height: 543px;
+background-color: #f2f2f2;
+}
+.medium{
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
+
+span i {
+  font-size: 80px;
+  margin: 0 0 32px;
+}
+.top .h3{
+  font-size: 47px;
+  margin: 80px;
+}
+.shop{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.box1, .box2{
+  display: flex;
+}
+.box1 .card , .box2 .card{
+  padding: 0 25px;
+}
+.images{
+  padding: 0 80px;
+}
+.write{
+  text-align: center;
+  padding:   150px 0;
+}
+
+
+
+
+.care img{
+  width: 340;
+  height: 500px;
+}
+.care  h4{
+  font-size: 16px;
+  position: relative;
+  top: 430px;
+  left: 125px;
+}
+.cards{
+  text-align: center;
+  display: flex;
+  gap: 40px;
+}
+.care h5{
+  font-size: 16px;
+  position: relative;
+  top: 450px;
+  left: 125px;
+}
+.card{
+  border: none;
+}
+.card img{
+  width: 120px;
+}
+  
+.click:hover {
+  color: red;
+}
+
+
+
+
+.footer{
+  padding: 40px 0 ;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  }
+  a{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+  }
+  .transition div{
+margin: 0 0 4px;
+}
+.img img {
+  font-size: 16px;
+  margin: 0 0 24px;
+  width: 148px;
+}
+.inpult input{
+  margin: 9px;
+  width: 147px;
+  height: 48px;
+  background-color: #f2f2f2;
+  border: 1px solid rgb(211, 204, 204);
+}
+.right{
+  display: block;
+  margin: 80px 0 0  0;
+  padding: 0 0 50px 0;
+}
+.btn button{
+  width: 85px;
+  height: 48px;
+  border: 2px solid black;
+  font-size: 16px;
+}
+.btn button:hover{
+  background-color: black;
+  color: white;
+}
+
+.xan{
+  display: flex
+}
+
+.write strong{
+  font-size: 47px;
+}
+.ht{
+  height: 560px auto;
+}
+.setir{
+  display: none;
+}
+.btn{
+  padding: 20px 0px
+}
+@media screen and (max-width: 600px) {
+  .setir{
+    display: block;
+  }
+
+  
+.pages a{
+  display: none;
+}
+
+.right-side img{
+  display: none;
+}
+  .advertising{
+    display: block;
+  }
+  .center{
+    display: block;
+  }
+  .rights{
+    display: block;
+  }
+.top .h3{
+  font-size: 28px;
+}
+  .shop{
+    display: block;
+  }
+  .write strong{
+    font-size: 27px;
+  }
+  .cards{
+    display: block;
+  }
+ .box1,.box2 {
+  display: block;
+ }
+
+.request{
+  display: block;
+}
+.xan {
+  display: block;
+}
+
+
+  .footer{
+    display: block;
+    text-align: center;
+  }
+}

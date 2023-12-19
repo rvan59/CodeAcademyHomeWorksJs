@@ -417,10 +417,11 @@ margin: 0 0 4px;
 .setir{
   display: none;
 }
-.btn{
-  padding: 20px 0px
+@media(min-width: 768px) and (min-width: 2024px){
+
+
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .setir{
     display: block;
   }

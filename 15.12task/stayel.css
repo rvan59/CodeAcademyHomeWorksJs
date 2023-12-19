@@ -10,6 +10,8 @@ h3 ,h6 ,.transition .click{
   color: black;
   font-family: 'Open Sans', sans-serif;
 }
+
+
 p{
   font-family: 'Syne', sans-serif;
   
@@ -21,6 +23,7 @@ em ,h4{
   font-family: 'EB Garamond', serif;
 }
 .header {
+  
   display: flex;
   justify-content: space-between;
 }
@@ -59,6 +62,10 @@ em ,h4{
 }
  .eft-side ,.item-wrapper{
   width: 50%;
+ }
+ .item-wrapper img{
+  width: 480px;
+  height: 480px;
  }
 .row{
   padding: 100px 0 0 0;

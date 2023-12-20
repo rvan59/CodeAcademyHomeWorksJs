@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=EB+Garamond:ital@1&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;1,6..12,300&family=Open+Sans:wght@400;600&family=Quicksand:wght@600&family=Syne:wght@400;600&display=swap');
+
+
 * {
   text-decoration: none;
   list-style: none;
@@ -10,8 +14,12 @@
   height: 70px;
   display: flex;
 }
+.header .nav3{
+  display: none;
+}
 nav ul a,
 .nav1 h3 a {
+  font-family: 'Quicksand', sans-serif;
   color: #d9e3d5;
   text-decoration: none;
 }
@@ -38,6 +46,10 @@ nav ul {
 .merkez .h5,
 .merkez .h1 {
   color: #1b745e;
+}
+
+.merkez .h1{
+  font-family: 'Quicksand', sans-serif;
 }
 .merkez {
   height: 800px;
@@ -96,18 +108,143 @@ nav ul {
   font-size: 18px;
 }
 
+
+
+
+.container .top{
+  color: #0c5b47;
+  padding: 30px 0
+}
+.kardss{
+  display: flex;
+  justify-content: space-around;
+}
+.kards{
+  border: 1px solid #0c5b47;
+  width: 310px ;
+  height: 380px;
+}
+.kard{
+  padding: 70px 45px;
+  text-align: center;
+  width: 250px;
+  height: 240px;
+}
+.deyer{
+  margin: 20px 0 0 50px;
+ display: flex;
+ color: #0c5b47;
+}
+.kar{
+  display: flex;
+}
+.events{
+  font-size: 22px;
+  margin: 0 0 16px;
+  color: #0c5b47;
+}
+.lorem{
+  color: #1b745e;
+  width: 215px;
+  padding: 0 0 30px;
+}
+.butt button{
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: #b2d6c0;
+  color: #0c5b47;
+}
+.butt button:hover{
+  background-color: #1b745e;
+}
+
+
+
+.sitil{
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+.icon{padding: 0 16px;
+  position: relative;
+  top: 140px;
+}
+
+
+.icon .i i{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  width: 44px;
+  height: 44px;
+  font-size: 35px;
+  color: #0c5b47;
+}
+.imgs .h1{
+  text-align: center;
+}
+.imgs .img img{
+  width: 356px;
+}
+.imgs a{
+  text-decoration: none;
+}
+.imgs h1, .imgs h3{
+  color: #0c5b47;
+}
+
+
+
+
+
+
+
+.flora{
+  padding: 16px 0 80px;
+  display: flex;
+}
+.wid .h1 h1{
+  color: #0c5b47;
+font-size: 70px;
+}
+.wid .h5 h5{
+  color: #1b745e;
+  font-size: 40px;
+}
+.wid{
+  width: 50%;
+}
+.wid p{
+  color: #89c4a0;
+  width: 470px;
+}
+
+
+
+
+
+
+
+
+
+
 .yazi{
     text-align: center;
 }
 .log , .logss{
-    display: flex;
-    
+    display: flex;  
+ 
+}
+.xan{
+padding: 15px 50px;
 }
 .logss img{
     width: 120px;
    
 }
-
 .yazi h1{
     color: #0c5b47;
     padding: 0 0 33px 0;
@@ -115,8 +252,65 @@ nav ul {
 .our{
     padding: 80px 0;
 }
+.our{
+  padding: 80px 0;
+  margin: 80px 0;
+}
 
 
+
+.icons{
+  text-align: center;
+  padding: 32px 0 80px;
+}
+.icons i{
+  font-size: 56px;
+  color: #0c5b47;
+}
+.icons{
+  width: 406px;
+}
+.icons .icon{
+  top: 0px;
+}
+
+
+
+
+
+
+.contacts h4,.contacts h1 {
+color: #0c5b47;
+text-align: center;
+padding: 0 0 12px;
+}
+
+.cardss{
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
+}
+.cart .h4 h4 ,.melumat{
+  padding: 0 0 25px;
+  font-size: 22px;
+}
+.carts{
+  padding: 0 16px;
+  text-align: center;
+  width: 300px;
+  height: 360px;
+}
+.carts{
+  padding: 50px 30px;
+}
+.melumat h5{
+  font-size: 18px;
+}
+ 
+.melumat h4{
+  font-size: 16px;
+}
+ 
 
 
 
@@ -131,7 +325,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
 }
-.footer .h1 h1 {
+.footer .h5 h5 {
   display: flex;
   justify-content: flex-start;
   font-size: 13px;
@@ -149,6 +343,7 @@ nav ul {
 }
 .input {
   display: flex;
+  border-bottom: 1px solid #0c5b47!important;
 }
 .input input {
     background-color: #E0ECDC;
@@ -165,9 +360,50 @@ nav ul {
     margin: 0 0  20px 0;
 }
 footer{
-    height: 300px;
     background-color: #E0ECDC;
 }
 .footer{
     padding: 80PX 0;
 }
+
+  @media only screen and (max-width: 768px) {
+    .header .nav2{
+      display: none;
+    }
+    .header .nav3{
+      display: block;
+      color: rgba(21, 56, 43, 0.774);
+      padding: 16px;
+      font-size: 24px;
+    }
+    .merkez{
+      display: none;
+    }
+.poziton{
+  
+  display: block;
+}
+    .kardss{
+      display: block;
+    }
+    .sitil{
+      display: block;
+    }
+    .flora{
+      display: block;
+    }
+
+
+    
+    .log,.log .logss{
+      display: block;
+    }
+    .cardss{
+      display: block;
+    }
+    
+    .footer{
+      display:block;
+    }
+  
+  }

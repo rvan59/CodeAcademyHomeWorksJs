@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Dahlia",
+      "price": 45,
+      "imgUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "Mazus",
+      "price": 45,
+      "imgUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "Pansies",
+      "price": 45,
+      "imgUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg"
+    }
+  ]
+}

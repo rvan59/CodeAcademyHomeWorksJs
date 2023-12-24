@@ -1,0 +1,305 @@
+a,*{
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.xet{
+    display: flex;
+}
+.xeet{
+    display: flex;
+    align-items: center;
+    border: 2.5px solid red;
+    width: 55px;
+    height: 0px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+    padding: 0.01% 5%;
+}
+.up .mon{
+    display: flex;
+    color: aliceblue;
+    gap: 0 15px ;
+}
+i,.mon h6 {
+    padding: 20px 15px;
+}
+.right a{
+    color: black;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+.Committed{
+    margin: 0 0 18px 0;
+    color: red;
+    font-size: 18px;
+}
+.We{
+    margin: 0 0 33px 0;
+    font-size: 60px;
+}
+.heros{
+    padding: 100px;
+}
+.hero-btn button{
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+
+
+.our{
+    padding:  10px 0 20px 20px;
+}
+.our h3{
+    color: red;
+}
+.oru h2{
+    color: darkblue;
+}
+.karts .i i{
+    font-size: 65px;
+    
+}
+.karts .i i:hover{
+    color: whitesmoke;
+    font-size: 65px;
+}
+.karts{
+    padding: 30px 22px;
+}
+.kartss{
+    display: flex;
+    justify-content: space-around;
+}
+.kartss .karts{
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+}
+.kartss .karts:hover{
+    width: 250px;
+    background-color: rgb(37, 0, 245);
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+.karts p{
+    padding: 5%;
+}
+.center{
+    padding: 100px 0;
+}
+
+
+.toop .sag,.toop.sol{
+width: 50%;
+}
+.toop .sol{
+    color: white;
+}
+.toop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 0 50px;
+}
+.paraqraf p{
+    width: 350px;
+}
+.btn button{
+    width: 200px;
+    height: 55px;
+    background-color: red;
+    color: white;
+}
+
+.kuponss{
+   display: flex;
+   text-align: center;
+   gap: 5%;
+}
+.fonts{
+    width:450px ;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -50px;
+}
+.testimonial{
+    text-align: center;
+    padding: 80px 0 0 0px;
+}
+.karusel{
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials p{
+    color: #d3d3d4;
+    font-size: 20px;
+    padding: 0 15% ;
+}
+.karusel img{
+    padding: 0 35px;
+}
+.founder-text span{
+    font-size: 30px;
+    color: #F04E3E;
+}
+.crcive{
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    color: #212529;
+    position: relative;
+    top: 165px;
+}
+.counter{
+    padding: 10px 0;
+    font-size: 60px;
+}
+.single-counter{
+    padding: 15px;
+    margin: 15px;
+}
+.single-counter p{
+    font-size: 18px;
+}
+.team-caption span{
+    color: #FF2141;
+    margin: 0 0 0 50px;
+}
+.team-caption{
+    padding: 20px 20px 20px 50px ;
+    background-color: white;
+}
+.rows button{
+    background-color: #212529;
+}
+.rows button:hover{
+    background-color: white;
+    color: #212529;
+}
+.rows{
+   
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.box{
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+.section{
+    margin:  0 0 100px;
+
+}
+.section span{
+    font-size: 50px;
+    color: #191d31;
+}
+.section h2{
+    font-size: 18px;
+    color: #FF2141;
+}
+.wantToWork{
+    font-size: 48px;
+    color: white;
+}
+.blogs{
+    background-color: white;
+}
+.blogs li{
+    background-color: #d3d3d4;
+    padding: 0px 30px 20px 80px;
+    position: relative;
+    left: -32px;
+    top: -35px;
+}
+.blogg{
+    height: 250px;
+    width: 400px;
+    margin: 30px 80px;
+}
+.blogg h3 a{
+    color: #191d31;
+    font-size: 30px;
+}
+.more-btn{
+    color: #FF2141;
+}
+
+
+.elaqe h5{
+    padding: 15px 0;
+}
+.footre{
+    
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location li{
+    padding: 8px 0;
+}
+.location a{
+    color: #BDBDBD;
+}
+.btn{
+    padding: 40px 0;
+    display: flex;
+}
+.Subscribe{
+    padding: 20px 0;
+    color: #BDBDBD;
+}
+input{
+    width: 250px;
+    height: 45px;
+    color: #d3d3d4;
+    background-color: #212529;
+}
+.button button{
+    width: 100px;
+    height: 45px;
+    background-color: black;
+}
+.xett{
+    border: 1px solid white;
+}
+.fut{
+    padding: 15px 0.;
+    color: #BDBDBD;
+    display: flex;
+    justify-content: space-between;
+}
+.websayt{
+    display: flex;
+    color: #BDBDBD;
+}

@@ -303,3 +303,43 @@ input{
     display: flex;
     color: #BDBDBD;
 }
+
+
+.about h1{
+    padding: 150px 0 0 0;
+font-size: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.paragraf{
+    padding: 100px 0;
+}
+.para{
+    width: 600px;
+}
+
+
+
+.tehluke i{
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    padding: 15px;
+font-size: 25px;
+}
+.hatas{
+    margin: 150px;
+}
+.hata{
+font-size: 24px;
+padding: 150px 90px ;
+background-color: #d3d3d4;
+}
+.hata h6{
+font-size: 12px;
+}
+.hata{
+text-align: center;
+}

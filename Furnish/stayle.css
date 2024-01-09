@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.topright nav ul a{
+    text-decoration: none;
+color: black;
+}
+.header{
+    padding: 15px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.topright nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topleft ,.sectionrighit{
+    width: 50%;
+}
+ .topright{
+    width: 50%;
+}
+.heradericon i{
+    display: none;
+}
+
+
+.centersection{
+    display: flex;
+
+}
+.sectionrighit img{
+    width: 100%;
+}
+.sectionleft button{
+    width: 120px;
+    height: 55px;
+border: none;
+border-radius: 23px;
+color: dodgerblue;
+font-weight: 500;
+background-color: aliceblue;
+}
+.sectionleft{
+padding: 150px;
+}
+.sectionleft h4 ,.sectionleft h2 ,.sectionleft p{
+    padding: 15px;
+}
+
+.carts .cart{
+    border-radius: 8px;
+    background-color: rgb(247, 245, 245);
+width: 300px;
+}
+.cartimg img{
+    width: 55px;
+    border-radius: 50%;
+}
+.carticon i{
+position: relative;
+background-color: #cf7500;
+color: white;
+border-radius: 45px;
+top: -25px;
+font-size: 35px;
+padding: 10px;
+}
+.asagi{
+    display: flex;
+    padding: 0 15px;
+}
+.melumat , .cartimg{
+    padding: 0 10px;
+}
+
+.futuretop{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carts{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+}
+.footreimg{
+    display: flex;
+    
+}
+.footreicon i{
+    font-size: 16px;
+    background-color:#61ace5 ;
+    padding: 10px;
+}
+.admin {
+    color:  #052c43;
+    font-weight: 500;
+}
+.unvan{
+    display: flex;
+}
+.unvan i{
+    padding: 0 10px;
+}
+.footreimg img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 480px){
+    .heradericon i{
+        display: block;
+    }
+}

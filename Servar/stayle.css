@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.headernavicon{
+    display: none;
+}
+.container{
+    max-width: 1199px;
+    margin: 0 auto;
+}
+.headericons{
+    display: flex;
+    padding: 10px 15px 10px 10px;
+}
+.headericons .headermname h6{
+    font-size: 13px;
+    color: #adb5bd;
+}
+.headericons .headermname h5{
+    font-size: 18px;
+    color: #000000;
+}
+.headericon{
+    font-size: 36px;
+    padding: 5px 15px 0px 10px;
+}
+.headertop, .headersag{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerleft nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 55px;
+    width: 50%;
+    font-size: 20px;
+    padding: 15px;
+}
+.headerleft nav ul a{
+    color: #919292;
+    text-decoration: none;
+    
+}
+.headerleft nav ul a:hover{
+    color: white;
+}
+.headerdown{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.heraderbutton1,.heraderbutton2{
+margin: 10px;
+border: none;
+height: 45px;
+width: 100px;
+background-color: #7cbd1e;
+font-size: 16px;
+color: white;
+}
+.heraderbutton1{
+    background-color:  #343a40;
+    border: 2px solid  #7cbd1e;
+    width: 120px;
+}
+.heraderbutton1:hover{
+    background-color: #7cbd1e;
+}
+
+.caruselsecter2{
+    background-image: url(./img/hero_bg_1.jpg);
+    height: 80vh;
+    text-align: center;
+
+}
+.caruselsecter1{
+    background-image: url(./img/hero_bg_2.jpg);
+    height: 80vh;
+    text-align: center;
+    
+}
+.karuselcenter{
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    padding: 0 30%;
+}
+.buttondownload{
+    background-color: #7cbd1e;
+    font-size: 24px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    color: white;
+}
+.buttondownload:hover{
+    background-color: #64a607;
+}
+.buttonget{
+    border: 1.5px solid white;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #000000;
+}
+.buttonget:hover{
+    background-color: white;
+    color: #000000;
+    font-size: 24px;
+}
+.karuselcenter h1{
+    font-size: 56px;
+    color: white;
+}
+.karuselcenter h4{
+    font-size: 24px;
+    color: white;
+}
+.sectionkarts{
+    padding:  80px 0;
+}
+.sectioncarts{
+    display: flex;
+}
+.sectiontop{
+    font-size: 65px;
+    padding: 15px 0;
+    text-align: center;
+}
+.carts{
+    text-align: center;
+    border: 1px solid 0.5px silver;
+    padding: 15px;
+    background-color: white;
+
+}
+.carts i{
+    font-size: 84px;
+    padding: 25px;
+}
+.carts button, .carts i{
+    padding: 10px;
+}
+.carts h5{
+    font-size: 28px;
+    padding: 10px;
+}
+.carts button{
+    background-color: #64a607;
+    color: white;
+    font-size: 18px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    margin: 15px 0;
+}
+
+
+.imgsection{
+    height: 80vh;
+    background-image: url(./img/hero_bg_3.jpg);
+
+}
+.compleks{
+    display: flex;
+}
+.compleks .left,.compleks .right{
+    width: 50%;
+}
+.left h2{
+    font-size: 80px;
+    color: #FFF;
+    padding: 15px;
+}
+.left h5{
+    padding: 15px;
+    font-size: 24px;
+    color: #FFF;
+}
+.left button{
+    font-size: 16px;
+    background-color: #7cbd1e;
+    border: none;
+    color: #FFF;
+    width: 170px;
+    height: 55px;
+}
+.left button:hover{
+    background-color: #64a607;
+}
+.compleks .left .melumat{
+    padding: 20% 0 0 25%;
+
+}
+
+.kupons h3{
+text-align: center;
+}
+.logsol,.logsag{
+    margin: 0px;
+    padding: 10px;
+}
+.logsol i{
+    font-size: 40px;
+    padding: 0 40px 0 60px;
+}
+.logsag{
+    font-size: 16px;
+}
+.kuponlog{
+    display: flex;
+}
+.kupon{
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid darkgray;
+}
+.kupon:hover{
+    background-color: #7cbd1e;
+    color: white;
+    border: 1px solid #7cbd1e;
+}
+.paraqraf p{
+    color: #919292;
+}
+.paraqraf p:hover{
+    color: white;
+}
+
+.kupons ,.kupons h3{
+    padding: 50px 0;
+}
+
+.apikupons{
+    padding: 10px;
+    display: flex;
+    border: 1px solid darkolivegreen;
+}
+.kupon{
+    width: 30%;
+}
+
+
+
+footer{
+    height: 30vh;
+    background-color: #393e46;
+}
+.footer {
+    text-align: center;
+    padding: 10% 0 0 0 ;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .headerleft,.headermname h6,.headermname h5{
+    display: none;
+  }
+  .headernavicon{
+    display: block;
+    color: white;
+    font-size: 24px;
+    padding: 10px 0;
+  }
+  .headerrght{
+    display: flex;
+  }
+  .sectioncarts{
+    display: block;
+  }
+  .carts{
+    margin: 15px 15px;
+  }
+  .compleks .left .melumat{
+    padding: 5% 0 0 15%;
+
+}
+.footer h4{
+    color: #959592;
+}
+.logsol,.logsag{
+    padding: 0px;
+}
+.logsol i{
+    padding:0 10px;
+
+}
+.kupon{
+    padding: 0px;
+}
+.kuponlog,.paraqraf{
+    padding: 10px;
+}
+.karuselcenter{
+    padding: 0 5%;
+}
+.apikupons{
+    border: none;
+}
+  }

@@ -15,10 +15,78 @@
 color: black;
 }
 .header{
+    
     padding: 15px;
     display: flex;
     position: absolute;
     width: 100%;
+}
+
+.aboutfurnish{
+    width: 50%;
+}
+.furnish{
+    display: flex;
+    height: 390px;
+   }
+.section{
+    background-image: url(./image/bg_4.jpg);
+
+padding: 200px 0;
+}
+.aboutfurnish h5{
+    font-size: 13px;
+}
+.aboutfurnish h5 ,.aboutfurnish h6{
+    color: #808080;
+    padding: 15px;
+}
+.vido i{
+    padding: 15px;
+    background-color: #cf7500;
+    border-radius: 50%;
+}
+.vido{
+    display: flex;
+}
+.vidioicon,.vidioname {
+    padding: 15px;
+}
+
+
+.stil img ,.copon .admin {
+    width: 280px;
+    height: 300px;
+}
+.copons{
+    display: flex;
+
+}
+.copon .admin h3:hover{
+    color: #cf7500;
+}
+.copon .admin h3{
+    font-size: 25px;
+    padding: 15px;
+}
+.copon .admin h4{
+    padding: 15px;
+    font-size: 16px;
+    color: #808080;
+}
+.copon .admin h5{
+    color: #cf7500;
+    font-size: 16px;
+    padding: 0 0 0px 15px;
+}
+.adminicon{
+    color: #808080;
+    padding: 15px;
+    font-size: 12px;
+}
+.copons .copon{
+    display: flex;
+    padding: 15px;
 }
 .topright nav ul {
     display: flex;

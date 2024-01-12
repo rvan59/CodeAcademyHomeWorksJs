@@ -1,0 +1,232 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.headertop,
+.headerdown {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.headernew {
+  display: flex;
+}
+.headericon i {
+  font-size: 22px;
+  color: blue;
+}
+.basliq1,
+.basliq {
+  font-size: 20px;
+  color: blue;
+}
+.basliq2,
+.headermelumet h4 {
+  color: #4c526e;
+}
+.xet {
+  border: 0.5px solid slategrey;
+  margin: 0 3%;
+}
+
+.headernav nav ul a {
+  color: #003072;
+  padding: 15px;
+  font-size: 20px;
+}
+.headermelumet h3 {
+  color: #003072;
+  font-size: 20px;
+}
+.headernav nav ul {
+  display: flex;
+}
+.logcomponi,
+.konplekt {
+  display: flex;
+}
+.logcomponi button {
+  border: 2px solid blue;
+  width: 120px;
+  height: 45px;
+  margin: 0 15px;
+  font-size: 20px;
+  color: rgb(53, 53, 250);
+}
+.logcomponi button:hover,
+.logcomponi button a:hover {
+  background-color: blue;
+  color: white;
+}
+.sag,
+.sol {
+  width: 50%;
+}
+.sag {
+  padding: 100px;
+}
+.sag h1 {
+  font-size: 60px;
+  color: white;
+}
+.sag h3 {
+  font-size: 24px;
+  color: white;
+}
+.sag button {
+  width: 130px;
+  height: 45px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+}
+.sag button:hover {
+  background-color: #003072;
+  border: none;
+}
+.footre1 {
+  text-align: center;
+  padding: 20px 0;
+}
+.footre1 h1 {
+  font-size: 54px;
+  color: white;
+  padding: 15px 0;
+}
+.footre1 h3 {
+  font-size: 24px;
+  color: white;
+}
+.footre1 button a {
+  color: white;
+}
+.footre1 button:hover {
+  background-color: blue;
+}
+.footre1 button {
+  margin: 15px;
+  width: 230px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #003072;
+  border: none;
+}
+.footer2 {
+  display: flex;
+  padding: 15px 0;
+}
+.footer2 h3 {
+  color: #4c526e;
+}
+.footer2 samp a {
+  color: #215194;
+}
+.sectiontop {
+  text-align: center;
+}
+.sektionxertt {
+  border: 3px solid white;
+  width: 150px;
+}
+.carts .cart {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  background-color: #e1e3f1;
+}
+.cart .down {
+  display: flex;
+}
+.cart h3 {
+  font-size: 18px;
+  color: #003072;
+}
+
+.cart img {
+  padding: 10px;
+  width: 80px;
+}
+.sectiontop h4 {
+  font-size: 14px;
+  padding: 10px 0;
+  color: #215194;
+}
+.sectiontop h3 {
+  font-size: 40px;
+  color: #003072;
+  padding: 10px 0;
+}
+.carts {
+  display: flex;
+  justify-content: space-around;
+}
+.h2 h2 {
+  font-size: 16px;
+}
+.img img {
+  width: 50px;
+}
+.melumatlar h3 {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+.melumatlar h4 {
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px 10px 10px;
+}
+.melumet {
+  display: flex;
+  padding: 10%;
+}
+.melumatlar {
+  padding: 20px;
+  background-color: #003072;
+}
+.melumatlar {
+  height: 50vh;
+  width: 60%;
+}
+.sectionimg {
+  width: 40%;
+  height: 50vh;
+}
+.sectionimg img {
+  height: 50vh;
+  width: 100%;
+}
+.melumatlar button {
+  margin: 10px 20px 20px 20px;
+  background-color: #003072;
+  border: 1.5px solid white;
+  color: white;
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+}
+.melumatlar button:hover {
+  background-color: #215194;
+  border: none;
+}
+
+.cartss {
+  display: flex;
+  justify-content: space-around;
+}
+.cart h1 {
+  font-size: 16px;
+}
+.cart h2 {
+  font-size: 16px;
+}

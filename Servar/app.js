@@ -1,35 +1,38 @@
-const BASE_URL = 'http://localhost:5555';
+const { setDefaultAutoSelectFamily } = require("net");
 
-let tBody = document.querySelector("tbody");
+const BASE_URL = "http://localhost:7000";
 
-async function getData(endPoint) {
-    let response = await axios(`${BASE_URL}/${endPoint}`)
-    console.log(response.data);
-    createTable(response.data)
+async function getData() {
+  let response = await axios(`${BASE_URL}/users`);
+  console.log(response.data);
+  console.log(response);
+  dfhkj(response.data)
 }
 
-getData("coffe_products");
+getData();
 
-function createTable(data) {
-    tBody.innerHTML = "";
-
-    data.forEach((element) => {
-        let trItem = document.createElement("tr");
-        tBody.appendChild(trItem);
-        tBody.innerHTML += `
-        <tr>
-                <td>${element.id}</td>
-                <td><img class="coffee-img" src="${element.image}"></img></td>
-                <td>${element.name}</td>
-                <td>${element.description}</td>
-                <td>${element.price}</td>
-                <td>${element.rating}</td>
-                <td onclick="deleteCoffee()" class="icon-td"><i class="fa-solid fa-trash"></i><i class="fa-solid fa-pencil"></i></td>
-              </tr>
-        `
-    });
-}
-
-function deleteCoffee(params) {
-    
+function dfhkj(elem) {
+  let satisfies = {};
+  satisfies.innerhtml = "";
+ elem.forEach(element => {
+    satisfies.innerhtml = `
+    <div class="kupon">
+    <div class="kuponlog">
+      <div class="logsol"><i class="fa-solid fa-sliders"></i></div>
+      <div class="logsag">
+        High Quality <br />
+        Hardware
+      </div>
+    </div>
+    <div class="paraqraf">
+      <p>
+        Lorem ipsum dolor sit amet <br />
+        consectetur is a nice adipisicing <br />
+        elita ssumenda a similique <br />
+        perferendis dolorem eos.
+      </p>
+    </div>
+  </div>
+    `;
+ });
 }

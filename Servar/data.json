@@ -1,0 +1,48 @@
+
+{
+    "users":[
+        {
+            "id":1,
+            "icon":"<i class=fa-solid fa-sliders></i>",
+            "name": "High Quality Hardware",
+            "paragraf":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+
+        },
+        {
+            "id":2,
+            "icon":"<i class=fa-solid fa-layer-group></i>",
+            "name": "  Top Data Centers",
+            "paragraf":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+
+        },
+        {
+            "id":3,
+            "icon":"<i class=fa-solid fa-plane></i>",
+            "name": " Outstanding Speed",
+            "paragraf":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+
+        },
+        {
+            "id":4,
+            "icon":"<i class=fa-solid fa-fire></i>",
+            "name": "Amazing Uptime",
+            "paragraf":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+
+        },
+        {
+            "id":5,
+            "icon":"<i class=fa-solid fa-headphones-simple></i>",
+            "name": "Best Support",
+            "paragraf":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+
+        },
+        {
+            "id":6,
+            "icon":"<i class=fa-regular fa-user></i>",
+            "name": "Client Reviews",
+            "paragraf":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+
+        }
+           
+    ]
+}

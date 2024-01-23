@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+.carts{
+    display: flex;
+}
+img{
+    width: 350px;
+    height: 250px;
+}

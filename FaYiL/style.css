@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+}
+.menu img{
+    width: 150px;
+    
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.headernav{
+    border: 0px 2px 2px 2px solid white;
+}
+.headerlogo,.headerContact{
+    border: 0px 0px 2px 0px solid white;
+
+}
+.headerlogo h1{
+    font-weight: 900;
+    color: white;
+    font-family: 'HelveticaNeueLTPro', sans-serif;
+}
+.headerlogo span{
+    font-weight: 900;
+    color: gold;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headernav nav ul{
+    display: flex;
+    gap: 15px;
+}
+.headernav nav ul a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.headernav nav ul a:hover{
+    color: gold;
+}
+.headerContact span{
+    color: white;
+    font-size: 18px;
+}
+.food{
+    position: relative;
+    top: -300px;
+    left: 550px;
+    color: white;
+    font-family: 'HelveticaNeueLTPro', sans-serif;
+}
+.food span{
+    color: gold;
+}
+.food h1{
+    font-size: 85px;
+}
+.food h2{
+    font-size: 14px;
+    position: relative;
+    left: 500px;
+    top: 0px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.cestion-logo img{
+    margin: 50px;
+}
+.section-welcome{
+
+    text-align: center;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line .xet{
+    border: 2px solid gold;
+    width: 255px;
+}
+.card{
+    border: none;
+    padding: 20px;
+}
+.card p{
+    color: rgb(107, 107, 107);
+}
+.card h2{
+    padding: 20px;
+}
+.card i{
+    font-size: 40px;
+}
+.conplecs p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.carosel-icon {
+    font-size:85px;
+    text-align: center;
+}
+.ted h1{
+    color: white;
+    padding: 40px 0;
+    font-size: 16px;
+    text-align: center;
+}
+.container-icon-api {
+text-align: center;
+font-size: 55px;
+margin: 20px;
+}
+.api-button{
+    text-align: center;
+}
+.api-button button{
+background-color: transparent;
+border: none;
+padding: 10px;
+}
+.api-button button a{
+color: white;
+text-decoration: none;
+}
+.section-api{
+    padding: 30px;
+}
+
+.menu{
+    color: white;
+}
+.menu-down{
+    display: flex;
+    align-items: center;
+}
+.carts{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-top h1{
+    font-size: 20px;
+}
+.menu-down h6{
+    font-size: 15px;
+    color: darkgray;
+}
+.menu-down h5{
+    font-size: 18px;
+    padding: 0 6px;
+}
+.container h5 span{
+    color: blue;
+}
+
+.button{
+    text-align: center;
+    width: 200px;
+    height: 55px;
+    background-color: gold;
+    margin: 25px 45%;
+}
+.button a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+form{
+    padding: 80px 0;
+}
+.forms{
+   position: relative;
+   left: 150px;
+   top: -45px;
+   padding: 0 20%;
+    background-color: white;
+    width: 850px;
+    height: 550px;
+    z-index: 1;
+}
+.numbers{
+    text-align: center;
+    gap: 20px;
+    display: flex;
+}
+.number,.email,.message {
+    margin:  15px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: aqua;
+}
+.message {
+    height: 150px;
+}
+.header-icon i{
+    display: none;
+}
+.sort{
+    color: white;
+    font-size: 26px;
+}
+@media (max-width:767px){
+    .header-icon i{
+        display: block;
+        color: white;
+        font-size: 22px;
+    }
+
+    .headernav,.headerContact {
+        display: none;
+    }
+    .cards,.numbers{
+        display: block;
+    }
+}

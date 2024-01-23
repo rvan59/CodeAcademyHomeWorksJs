@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Xan",
+      "img": "https://preview.colorlib.com/theme/selling/images/model_2_bg.jpg",
+      "xarakter": "men"
+    },
+    {
+      "id": "2",
+      "name": "Nura",
+      "img": "https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg",
+      "xarakter": "Women"
+    },
+    {
+      "id": "3",
+      "name": "Asya",
+      "img": "https://preview.colorlib.com/theme/selling/images/model_3_bg.jpg",
+      "xarakter": "Women"
+    },
+    {
+      "id": "4",
+      "name": "Nigar",
+      "img": "https://preview.colorlib.com/theme/selling/images/model_5_bg.jpg",
+      "xarakter": "Women"
+    },
+    {
+      "id": "5",
+      "name": "Qenire",
+      "img": "https://preview.colorlib.com/theme/selling/images/model_4_bg.jpg",
+      "xarakter": "Women"
+    }
+  ]
+}

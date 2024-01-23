@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+#header-top {
+  background-color: #f8f9fa;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 20px;
+  transition: all 1s;
+  height: 30px;
+  width: 30px;
+}
+.icons i:hover {
+  color: #f16821;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.contact div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.contact i {
+  color: #f16821;
+  transition: all 1s;
+}
+.contact i:hover {
+  color: #8d3f18;
+}
+.contact span {
+  font-size: large;
+  color: black;
+}
+.header-bottom {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: black;
+}
+.header-logo a span {
+  color: #f16821;
+  font-size: 40px;
+}
+.header-nav nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.header-nav nav ul a {
+  color: black;
+  transition: all 1s;
+}
+.header-nav nav ul a:hover {
+  color: #f16821;
+}
+.header-nav i {
+  display: none;
+}
+#shop {
+  background-image: url("../images/hero_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+.shops {
+  background-color: rgba(0, 0, 0, 0.192);
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 888;
+  height: 80vh;
+  width: 100%;
+}
+.shop {
+  padding: 50px;
+}
+.shop h1 {
+  color: white;
+  font-size: 55px;
+  padding: 40px 0 0 0;
+}
+.shop p {
+  color: white;
+  font-size: 24px;
+  padding: 50px 0;
+}
+.club {
+  color: black;
+  border: none;
+  background-color: white;
+  padding: 10px 20px;
+  margin: 15px;
+}
+.club:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.shopnow {
+  color: white;
+  background-color: transparent;
+  width: 200px;
+  height: 35px;
+  border: 2px solid white;
+  padding: 10px 20px;
+}
+.shopnow:hover {
+  background-color: white;
+  color: black;
+}
+.section-top {
+  text-align: center;
+}
+.section-top h3 {
+  color: #adb5bd;
+  font-size: 16px;
+  padding: 15px;
+}
+.section-top h2 {
+  color: black;
+  font-size: 34px;
+  padding: 15px;
+}
+.section-top p {
+  color: #808080;
+  font-size: 16px;
+  padding: 0 0 15px 0;
+}
+.cart {
+  width: 350px;
+}
+.section-img img {
+  height: 300px;
+}
+.cart h4 {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.section-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+.cart p {
+  text-align: center;
+}
+.cartbutton {
+  background-color: black;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 25px;
+}
+.cartbutton:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.viewbutton {
+  width: 90px;
+  height: 25px;
+  border: 2px solid black;
+}
+.viewbutton:hover {
+  background-color: black;
+  color: white;
+}
+.carts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 50px 0;
+}
+.footer h5 {
+  color: #adb5bd;
+  padding: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0 5%;
+  }
+  .contact span {
+    display: none;
+  }
+  .header-nav nav {
+    display: none;
+  }
+  .header-nav i {
+    display: block;
+    font-size: 24px;
+  }
+}
+.info {
+  width: 100%;
+}
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.info nav ul li a {
+  padding: 10px;
+}
+.info img{
+  width: 250px;
+}
+.info h4,.info h5{
+  font-weight: 600;
+  font-size: 18px;
+}
+.info p,.info nav ul li a,.info a i{
+  color: #808080;
+}
+.info a i{
+  padding: 15px;
+}
+.info button{
+  font-weight: 700;
+  width: 120px;
+  height: 35px;
+  color: white;
+  border: none;
+  background-color: black;
+}
+.info button:hover{
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}

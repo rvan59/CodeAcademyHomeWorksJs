@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+}
+nav ul a{
+  color: blue;
+  font-size: 24px;
+}
+nav ul a:hover{
+  color: rgb(255, 238, 0);
+}
+.cart img{
+  width: 200px;
+}
+.carts{
+  display: flex;
+}

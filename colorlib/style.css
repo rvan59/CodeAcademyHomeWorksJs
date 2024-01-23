@@ -1,0 +1,286 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-icon {
+  display: none;
+}
+.header-nav nav ul {
+  display: flex;
+  gap: 20px;
+  padding: 15px 0;
+}
+.header-nav nav ul a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.header-nav nav ul a:hover {
+  color: darkgray;
+}
+.header-buton button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  width: 100px;
+  height: 35px;
+}
+.carousel-item h1 {
+  font-size: 65px;
+}
+
+.carousel-item img {
+  height: 100vh;
+}
+
+.carusel-write button {
+  border: 2px solid white;
+  color: white;
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+  background-color: transparent;
+}
+.carusel-write button:hover {
+  background-color: white;
+  color: darkgrey;
+}
+.carusel-write {
+  position: relative;
+  top: -350px;
+  left: 25%;
+  color: white;
+}
+.section-img img {
+  width: 450px;
+  height: 550px;
+}
+.section {
+  display: flex;
+}
+.section-img,
+.section-our {
+  width: 50%;
+}
+.section-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.section-our {
+  padding: 65px 25px;
+}
+.section-our p {
+  color: darkgray;
+}
+.section-our h5 {
+  font-size: 16px;
+  color: darkgray;
+}
+.api-img img {
+  width: 70px;
+  border-radius: 50%;
+}
+.api-top {
+  padding: 30px;
+  text-align: center;
+}
+.api-top h5 {
+  color: darkgrey;
+  font-size: 16px;
+}
+.carts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(234, 232, 232);
+  padding: 10px;
+  border-radius: 8px;
+}
+.cart:hover {
+  background-color: gold;
+}
+.cart h1 {
+  font-size: 28px;
+}
+.cart h2 {
+  font-size: 18px;
+  color: darkgray;
+}
+.api-button {
+  display: flex;
+  justify-content: center;
+}
+.api-button button {
+  margin: 15px;
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  color: darkgray;
+  border: none;
+}
+.api-button button:hover {
+  background-color: goldenrod;
+}
+.api-down button {
+  color: gold;
+  border: 2px solid gold;
+  background-color: white;
+  width: 180px;
+  height: 45px;
+}
+.api-down {
+  text-align: center;
+  padding: 35px;
+}
+.api-down h2 {
+  font-size: 16px;
+  color: darkgray;
+}
+.card img {
+  width: 80px;
+  border-radius: 50%;
+  position: relative;
+  top: -25px;
+  left: 140px;
+}
+.card {
+  text-align: center;
+  width: 350px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.caerd-down h6,
+.card p {
+  color: darkgray;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.cupon-img img,
+.cupon-data {
+  width: 300px;
+  height: 200px;
+}
+.cupon-data h2 {
+  font-size: 16px;
+  padding: 0 10px;
+}
+.cupon-data h5 {
+  font-size: 14px;
+  color: darkgray;
+  padding: 0 5px;
+}
+.cupon-data {
+  background-color: white;
+}
+.cupons {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.cupun-down {
+  display: flex;
+  justify-content: space-between;
+  color: darkgray;
+  font-size: 14px;
+  padding: 0 10px;
+}
+.top {
+  text-align: center;
+  padding: 25px;
+}
+.top h5 {
+  font-size: 14px;
+  color: darkgray;
+}
+.footer-down {
+  color: darkgrey;
+  text-align: center;
+}
+.footer-down h1 {
+  font-size: 18px;
+  padding: 25px;
+  font-weight: 200;
+}
+footer {
+  background-color: rgb(33, 33, 33);
+}
+.tasty {
+  color: rgb(130, 129, 129);
+}
+.foturs i {
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: rgb(189, 189, 190);
+  font-size: 18px;
+}
+.tasty h1 {
+  color: white;
+  font-size: 28px;
+}
+.footre-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.foturs span {
+  color: white;
+}
+.foturs p:hover {
+  color: white;
+}
+.footer-icons input {
+  background-color: transparent;
+  width: 250px;
+  height: 40px;
+}
+
+@media (max-width: 767px) {
+  .header-icon {
+    display: block;
+    color: white;
+    font-size: 24px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .carusel-write h1 {
+    font-size: 24px;
+  }
+  .cards,
+  .section,
+  .carts,
+  .cupons,
+  .footre-top,
+  .section-img {
+    display: block;
+  }
+}
